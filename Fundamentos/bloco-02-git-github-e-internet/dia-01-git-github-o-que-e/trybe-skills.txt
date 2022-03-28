@@ -9,3 +9,4 @@ Java Script
 E muito mais
 COmo pude me esquecer
 de node.js não é mesmo
+E também não vamos nos esquecer das Softskills
