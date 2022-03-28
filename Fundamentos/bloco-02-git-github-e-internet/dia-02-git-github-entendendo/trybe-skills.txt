@@ -1,0 +1,13 @@
+O que vou aprender na Trybe:
+
+-Unix
+-Bash
+-Git
+HTML5
+CSS3
+Java Script
+E muito mais
+COmo pude me esquecer
+de node.js não é mesmo
+React.js
+mongo.js
