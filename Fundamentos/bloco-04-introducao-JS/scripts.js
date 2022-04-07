@@ -1,14 +1,15 @@
-const a = -36;
+const a = 12;
+const b = 40;
+const c = -190;
+
+let triangle = a + b + c;
 
 
-let comeback1 = "positive"
-let comeback2 = "negative"
-let comeback3 = "zero"
 
-if(a > 0) {
-    console.log(comeback1)
-} else if (a < 0) {
-    console.log(comeback2)
+if(a + b + c == 180) {
+    true
+} else if (a + b + c < 0) {
+    console.log("Negative angle doesn't exist")
 } else {
-    console.log(comeback3)
+    false
 };
