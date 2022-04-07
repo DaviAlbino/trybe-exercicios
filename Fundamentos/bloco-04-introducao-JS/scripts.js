@@ -1,8 +1,14 @@
-const a = 36;
-const b = 97;
+const a = -36;
 
-if(a > b) {
-    console.log(a)
+
+let comeback1 = "positive"
+let comeback2 = "negative"
+let comeback3 = "zero"
+
+if(a > 0) {
+    console.log(comeback1)
+} else if (a < 0) {
+    console.log(comeback2)
 } else {
-    console.log(b)
-}
+    console.log(comeback3)
+};
