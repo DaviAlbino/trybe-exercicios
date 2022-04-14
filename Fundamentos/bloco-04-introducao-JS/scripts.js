@@ -12,6 +12,7 @@ for(let index = 1; index < numbers.length; index += 1) {
 
 console.log(lower)
 
+// exercício 8 e 9 
 
 let numbers2 = [];
 for(let index2 = 1; index2 <= 25; index2 += 1) {

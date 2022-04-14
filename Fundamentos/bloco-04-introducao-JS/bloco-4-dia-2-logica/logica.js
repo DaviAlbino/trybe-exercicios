@@ -45,3 +45,28 @@ for(let index3 = 1; index3 < words.length; index3 += 1) {
 }
 
 console.log('Maior número é: ' + bigger)
+
+// exercício 4
+
+let numeros = [];
+for(let index = 0; index <= 50; index += 1){
+    numeros.push(index)
+}
+
+let primeNumber = [];
+let notPrime = [];
+
+for(let index2 = 2; index2 < numeros.length; index2 += 1){
+    for(let index3 = 2; index3 < numeros.length; index3 += 1) {
+        if(numeros[index2] % numeros[index3] == 0 && numeros[index2] !== numeros[index3]) {
+            notPrime.push(numeros[index2])
+            } else {
+                primeNumber.push(numeros[index2]);
+        }
+        
+    }
+}
+
+console.log(notPrime)
+
+console.log(primeNumber)
