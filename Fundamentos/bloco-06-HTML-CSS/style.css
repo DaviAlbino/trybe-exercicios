@@ -1,49 +1,7 @@
-body {
-    height: 100%;
-    width: 90%;
-    margin: 0 auto;
+body{
+    background-color: rgb(183, 233, 233);
 }
 
-h1{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.container{
-    margin: 0 auto;
-    text-align: justify;
-    max-width: fit-content;
-    border: 5px solid rgb(34, 33, 33);
-    border-radius: 3px;
-    padding: 20px;
-    
-}
-
-.client-info{
-    line-height: 2.0;
-    font-family: Arial, Helvetica, sans-serif;
-   
-}
-
-.submit-delete{
-    text-align: center;
-    max-width: max-content;
-    margin: 0 auto;
-    padding-right: 240px;
-    margin-top: 10px;
-}
-
-#submit-btn{
-    border: 2px solid rgb(71, 68, 68);
-    border-radius: 5px;
-    padding: 10px;
-    color: rgb(48, 50, 54);
-}
-
-
-#delete-btn{
-    border: 2px solid rgb(71, 68, 68);
-    border-radius: 5px;
-    padding: 10px;
-    color: rgb(48, 50, 54);
+.form-control{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
